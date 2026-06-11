@@ -1,0 +1,49 @@
+{
+  "name": "zerodb-firebase",
+  "version": "1.0.0",
+  "description": "Firebase Cloud Functions compatible SDK backed by ZeroDB. Same syntax, zero vendor lock-in.",
+  "main": "index.cjs",
+  "module": "index.js",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.cjs"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.cjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/triggers.test.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "firebase-functions",
+    "firebase-alternative",
+    "cloud-functions",
+    "database-triggers",
+    "zerodb",
+    "ainative",
+    "serverless",
+    "auto-provisioning",
+    "migration",
+    "firebase-to-zerodb"
+  ],
+  "author": "AINative Studio",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AINative-Studio/zerodb-firebase.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AINative-Studio/zerodb-firebase/issues"
+  },
+  "homepage": "https://zerodb.ai",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
