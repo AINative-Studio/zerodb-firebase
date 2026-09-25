@@ -1,6 +1,6 @@
 {
   "name": "zerodb-firebase",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Firebase Cloud Functions compatible SDK backed by ZeroDB. Same syntax, zero vendor lock-in.",
   "main": "index.cjs",
   "module": "index.js",
