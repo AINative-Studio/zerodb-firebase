@@ -42,7 +42,7 @@
   "bugs": {
     "url": "https://github.com/AINative-Studio/zerodb-firebase/issues"
   },
-  "homepage": "https://zerodb.ai",
+  "homepage": "https://ainative.studio/products/zerodb",
   "engines": {
     "node": ">=18.0.0"
   }
